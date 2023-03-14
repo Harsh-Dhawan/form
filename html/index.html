@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926__340.jpg');
+        background-size: cover;
+
+
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 40px;
+        top: 22px;
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 22px 48%;
+        /* border: 2px solid rgb(29, 255, 172); */
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 33px;
+        top: 612px;
+        /* border: 2px solid rgb(194, 11, 255); */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 17px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 15px 10px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .left img {
+        width: 59px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 19px;
+        font-size: 16px;
+    }
+
+    .btn {
+        font-family: serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 3px 14px;
+        border: 2px solid black;
+        border-radius: 20px;
+        font-size: 15px;
+        cursor: pointer;
+        
+    
+    }
+
+    .btn:hover {
+        background-color: rgb(255, 6, 6);
+    }
+
+    .container {
+        /* border: 2px dashed rgb(255, 255, 255); */
+        margin: -40px 764px;
+        padding: 145px 15px;
+        width: 39%;
+        border-radius: 10px;
+    }
+
+    .formgroup input {
+        text-align: center;
+        display: block;
+        width: 68%;
+        padding: 1px;
+        border: 3px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 73%;
+        margin: 20% auto;
+    }
+    .btnn{
+        display: inline-block;
+        position: absolute;
+        right: 253px;
+        top: 492px;
+    }
+</style>
+
+<body>
+    <header>
+        <!-- logo -->
+        <div class="left">
+            <img src="https://w7.pngwing.com/pngs/560/54/png-transparent-running-vadodara-marathon-logo-gym-miscellaneous-racing-running-thumbnail.png"
+                alt="">
+            <div>
+                HARSH FITNESS
+            </div>
+        </div>
+        <!-- navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li> <a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        <!-- buttons -->
+        <div class="right">
+            <button class="btn">CALL US</button><button class="btn">EMAIL US </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN GYM WITH 20% OFF</h1>
+        <!-- noaction php hoga koi developed -->
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your location">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your mobile number ">
+            </div>
+
+            
+        </form>
+        
+    </div>
+    <div class="btnn">
+        <botton class="btn">SUBMIT</botton>
+    </div>
+</body>
+
+</html>
